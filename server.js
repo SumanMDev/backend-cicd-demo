@@ -1,5 +1,4 @@
 import express from 'express';
-import login from './routes/auth.route.js';
 
 const app = express();
 const PORT = 7000;
