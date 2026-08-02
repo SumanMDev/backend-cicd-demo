@@ -4,13 +4,13 @@ const app = express();
 const PORT = 7000;
 
 app.get('/', (req, res) => {
-   res.status(200).send("<h1>Backend is running</h1>");
-})
+  res.status(200).send('<h1>Backend is running</h1>');
+});
 
 app.get('/health', (req, res) => {
-   res.send("Your app is running");
-})
+  res.send('Your app is running');
+});
 
-app.listen(PORT, ()=> {
-   console.log(`Your Server is running on http:localhost:${PORT}`)
-})
+app.listen(PORT, () => {
+  console.log(`Your Server is running on http:localhost:${PORT}`);
+});
