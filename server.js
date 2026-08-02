@@ -11,8 +11,6 @@ app.get('/health', (req, res) => {
   res.send('Your app is running');
 });
 
-app.use('/login', login);
-
 app.listen(PORT, () => {
   console.log(`Your Server is running on http:localhost:${PORT}`);
 });
